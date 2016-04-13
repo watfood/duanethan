@@ -224,7 +224,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  /*background-image: url('../img/header-bg.jpg');*/
+  /*background-image: url('../img/j_d_insts-3 copy.jpg');*/
+  /*background-image: url('http://www.atari.io/wp-content/uploads/2014/09/blog_fairchild_1.jpg');*/
+  background-image: url('https://cdn1.artstation.com/p/assets/images/images/001/159/921/large/florian-de-gesincourt-degesart-sk0010-playerone-j-deges1500.jpg?1443929860');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -232,8 +235,8 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: center;
-  color: white;
+  text-align: right;
+  color: yellow;
 }
 header .intro-text {
   padding-top: 100px;
