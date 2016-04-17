@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -247,9 +247,9 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-style: italic;*/
+  font-size: 16px;
   line-height: 22px;
   margin-bottom: 25px;
 }
@@ -267,9 +267,9 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-style: italic;*/
+    font-size: 30px;
     line-height: 40px;
     margin-bottom: 25px;
   }
@@ -292,9 +292,9 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
+  /*font-style: italic;*/
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -560,9 +560,16 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
-  background-position: center;
+  background-image: url('../img/ReadyPlayerOne.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: justify;
+  color: #f6bf01;
 }
 section#contact .section-heading {
   color: white;
@@ -747,4 +754,25 @@ body {
 
 .fa-stack {
   margin-bottom: 60px;
+}
+
+.cognito {
+  border-radius: 25%;
+  display: center;
+  color: white;
+}
+
+.cognito .c-label label {
+  color: #fed136!important;
+
+}
+
+.cognito h2  {
+  color: #fed136 !important;
+  text-transform: none;
+}
+
+
+#c-submit-button {
+    background-color: #fed136 !important;
 }
